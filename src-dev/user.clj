@@ -1,6 +1,7 @@
 (ns user
   (:require fiddle-manager))
 
+(def x 1)
 (fiddle-manager/write-loader-file "./src-dev/fiddles.cljc")
 (require 'dev)
 
